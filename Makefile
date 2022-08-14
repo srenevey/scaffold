@@ -5,6 +5,10 @@ install:
 install-aws:
 	pip install --upgrade pip &&\
 		pip install -r requirements-aws.txt
+		
+install-amazon-linux:
+	pip3 install --upgrade pip &&\
+		pip3 install -r amazon-linux.txt
 
 lint:
 	pylint --disable=R,C hello.py
