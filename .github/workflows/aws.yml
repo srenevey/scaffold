@@ -1,5 +1,5 @@
 
-name: AWS Amazon Linux 2 3.9.13
+name: AWS with Python 3.9.13
 on: [push]
 jobs:
   build:
